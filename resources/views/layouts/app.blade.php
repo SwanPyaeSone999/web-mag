@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="{{ secure_asset('css/parsley.css') }}">
         <link rel="stylesheet" href="{{ secure_asset('css/select2.min.css') }}">
         <!-- Scripts -->
-        <script src="{{ secure_assest('js/app.js') }}" defer></script>
+        <script src="{{ secure_asset('js/app.js') }}" defer></script>
         @stack('script')
         {{-- <script src="{{ asset('js/parsley.min.js') }}"></script> --}}
         {{-- @stack('scripts') --}}
