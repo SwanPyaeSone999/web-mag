@@ -11,11 +11,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
-        <link rel="stylesheet" href="{{ secure_asset('css/parsley.css') }}">
-        <link rel="stylesheet" href="{{ secure_asset('css/select2.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/parsley.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/select2.min.css') }}">
         <!-- Scripts -->
-        <script src="{{ secure_asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
         @stack('script')
         {{-- <script src="{{ asset('js/parsley.min.js') }}"></script> --}}
         {{-- @stack('scripts') --}}
