@@ -1,7 +1,7 @@
 <x-layouts.app>
         <div class="w-full">
             <div class="relative bg-gray-600">
-                <img class="w-full h-64 object-cover mix-blend-overlay" src="{{ asset($post['thumbnail'] ? 'storage/thumbnail/'. $post['thumbnail'] : 'storage/thumbnail/default.jpg' ) }}" alt="">
+                <img class="w-full h-64 object-cover mix-blend-overlay" src="{{ asset($post['thumbnail'] ? 'storage/thumbnail/'. $post['thumbnail'] : 'default/default.jpg' ) }}" alt="">
                 <div class="absolute left-3 bottom-10 text-white">
                     <div>
                         <span class="bg-yellow-500 px-3 py-1 rounded-sm text-xs text-white">{{$post->category->name}}</span>

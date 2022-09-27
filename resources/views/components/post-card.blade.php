@@ -6,7 +6,7 @@
     @foreach ($posts as $post)
             @if ($loop->iteration <= 3)
             <div class="w-full h-40 col-span-4 mb-20">
-                <img class="w-full h-full object-cover object-center" src="{{ asset($post['thumbnail'] ? 'storage/thumbnail/'. $post['thumbnail'] : 'storage/thumbnail/default.jpg' ) }}">
+                <img class="w-full h-full object-cover object-center" src="{{ asset($post['thumbnail'] ? 'storage/thumbnail/'. $post['thumbnail'] : 'default/default.jpg' ) }}">
                 <div class="mt-5">
                    <div>
                     <span class="bg-yellow-500 px-3 py-1 rounded-sm text-xs text-white"><a href="{{ route('post.category.show', $post->category->slug) }}">{{$post->category->name}}</a></span>
